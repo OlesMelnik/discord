@@ -120,4 +120,4 @@ client.on('message', async message => {
     }
 })
 
-client.login('ODE1NjQ2NDI1NDYyOTk3MDMy.YDvb7Q.8Mx-nQII0n5El-PG1LxfB_sZlkQ');
+client.login(process.env.DJS_TOKEN);
